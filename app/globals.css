@@ -1,0 +1,149 @@
+@import "tailwindcss";
+@import "shadcn/tailwind.css";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-space-grotesk);
+  
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  /* Animations */
+  @keyframes slow-drift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  @keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes logo-fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  --animate-slow-drift: slow-drift 20s ease infinite;
+  --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
+  --animate-logo-fade: logo-fade 1s ease-out forwards;
+  --animate-marquee: marquee 40s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+}
+
+:root {
+  --radius: 0.625rem;
+  
+  /* Light Theme Base - Trust/Stability (Blue tones) */
+  --background: oklch(0.98 0.01 250); /* Pale Blue/White */
+  --foreground: oklch(0.2 0.05 260); /* Deep Navy */
+  
+  --card: oklch(0.99 0.005 250);
+  --card-foreground: oklch(0.2 0.05 260);
+  --popover: oklch(0.99 0.005 250);
+  --popover-foreground: oklch(0.2 0.05 260);
+  
+  --primary: oklch(0.45 0.18 260); /* Strong Trust Blue */
+  --primary-foreground: oklch(0.98 0 0); /* White */
+  
+  --secondary: oklch(0.95 0.03 250); /* Soft Blue */
+  --secondary-foreground: oklch(0.25 0.05 260);
+  
+  --muted: oklch(0.95 0.02 250);
+  --muted-foreground: oklch(0.5 0.05 260);
+  
+  --accent: oklch(0.92 0.04 250);
+  --accent-foreground: oklch(0.25 0.05 260);
+  
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.9 0.03 250);
+  --input: oklch(0.9 0.03 250);
+  --ring: oklch(0.45 0.18 260);
+
+  /* Gradient Colors - Light */
+  --gradient-start: #e0f2fe; /* sky blue */
+  --gradient-mid: #e0e7ff;   /* indigo tint */
+  --gradient-end: #f0f9ff;   /* alice blue */
+}
+
+.dark {
+  /* Dark Theme Base - Trust/Stability (Blue tones) */
+  --background: oklch(0.12 0.04 260); /* Deep Navy/Midnight */
+  --foreground: oklch(0.98 0.01 250); /* Pale Blue/White */
+  
+  --card: oklch(0.15 0.05 260);
+  --card-foreground: oklch(0.98 0.01 250);
+  --popover: oklch(0.15 0.05 260);
+  --popover-foreground: oklch(0.98 0.01 250);
+  
+  --primary: oklch(0.6 0.18 250); /* Bright Blue */
+  --primary-foreground: oklch(0.1 0.05 260); /* Dark Navy */
+  
+  --secondary: oklch(0.25 0.05 260);
+  --secondary-foreground: oklch(0.98 0.01 250);
+  
+  --muted: oklch(0.2 0.04 260);
+  --muted-foreground: oklch(0.7 0.04 250);
+  
+  --accent: oklch(0.25 0.05 260);
+  --accent-foreground: oklch(0.98 0.01 250);
+  
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(0.25 0.05 260);
+  --input: oklch(0.25 0.05 260);
+  --ring: oklch(0.6 0.18 250);
+
+  /* Gradient Colors - Dark */
+  --gradient-start: #0a192f; /* dark navy */
+  --gradient-mid: #172a45;   /* lighter navy */
+  --gradient-end: #303f9f;   /* indigo */
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+@layer utilities {
+  .glass-header {
+    background-color: color-mix(in srgb, var(--background), transparent 30%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom-width: 1px;
+    border-bottom-color: var(--border);
+  }
+}
