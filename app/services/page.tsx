@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Check, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import BhuexpertServiceSection from "@/components/sections/BhuexpertServiceSection";
+import ProfNessServiceSection from "@/components/sections/ProfNessServiceSection";
 
 const services = [
   {
@@ -54,7 +54,7 @@ export default function ServicesPage() {
         </div>
       </div>
 
-      <BhuexpertServiceSection />
+      <ProfNessServiceSection />
 
       <div className="space-y-12 py-12">
         {services.map((service, index) => (

@@ -37,7 +37,7 @@ export default function AIGrowthPage() {
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-3xl">
              <div className="inline-block px-3 py-1 mb-4 border border-primary/50 rounded-full bg-primary/10 text-primary text-sm font-medium">
-                Bhuexpert AI Engine v2.0
+                ProfNess AI Engine v2.0
              </div>
              <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 leading-tight">
                 Automate your growth. <br />

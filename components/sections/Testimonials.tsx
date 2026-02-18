@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const testimonials = [
   {
-    quote: "Bhuexpert transformed our entire digital presence. Their strategic approach and attention to detail exceeded all expectations.",
+    quote: "ProfNess transformed our entire digital presence. Their strategic approach and attention to detail exceeded all expectations.",
     author: "Alex Thompson",
     role: "CEO, TechVision Inc",
     highlight: false,

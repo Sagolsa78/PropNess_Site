@@ -71,8 +71,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Email Us</h3>
-                  <p className="text-muted-foreground">hello@bhuexpert.com</p>
-                  <p className="text-muted-foreground">support@bhuexpert.com</p>
+                  <p className="text-muted-foreground">hello@profness.com</p>
+                  <p className="text-muted-foreground">support@profness.com</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">

@@ -48,7 +48,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
         <Link href="/" className="text-xl font-bold tracking-tight z-50 font-display">
-          BHUEXPERT
+          PROFNESS
         </Link>
 
         {/* Desktop Navigation */}

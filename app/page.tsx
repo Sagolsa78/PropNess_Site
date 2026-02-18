@@ -6,7 +6,7 @@ import AIAutomationSystemOverview from "@/components/sections/AIAutomationSystem
 import CaseStudiesPreview from "@/components/sections/CaseStudiesPreview";
 import ProcessBreakdown from "@/components/sections/ProcessBreakdown";
 import Testimonials from "@/components/sections/Testimonials";
-import BhuexpertTeaser from "@/components/sections/BhuexpertTeaser";
+import ProfNessTeaser from "@/components/sections/ProfNessTeaser";
 import Pricing from "@/components/sections/Pricing";
 import AboutSnippet from "@/components/sections/AboutSnippet";
 import TeamSection from "@/components/sections/TeamSection";
@@ -22,7 +22,7 @@ export default function Home() {
       <ServicesOverview />
       <ProcessBreakdown />
       <CaseStudiesPreview />
-      <BhuexpertTeaser />
+      <ProfNessTeaser />
       <Testimonials />
       <DigitalGrowthPhilosophy />
       <Pricing />

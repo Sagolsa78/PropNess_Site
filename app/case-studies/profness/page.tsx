@@ -9,7 +9,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-export default function BhuexpertCaseStudyPage() {
+export default function ProfNessCaseStudyPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
@@ -36,7 +36,7 @@ export default function BhuexpertCaseStudyPage() {
                 transition={{ delay: 0.1, duration: 0.6 }}
                 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-400"
              >
-                Bhuexpert.com
+                ProfNess.com
              </motion.h1>
              
              <motion.p
@@ -57,7 +57,7 @@ export default function BhuexpertCaseStudyPage() {
              transition={{ delay: 0.4, duration: 0.8 }}
              className="relative aspect-video max-w-5xl mx-auto rounded-xl overflow-hidden shadow-2xl border border-zinc-800 bg-zinc-900/50 group"
            >
-                {/* Simulated UI for Bhuexpert */}
+                {/* Simulated UI for ProfNess */}
                 <div className="absolute inset-0 flex flex-col">
                     <div className="h-10 bg-zinc-900 border-b border-zinc-800 flex items-center px-4 space-x-2">
                         <div className="flex space-x-1.5">
@@ -66,7 +66,7 @@ export default function BhuexpertCaseStudyPage() {
                             <div className="w-3 h-3 rounded-full bg-zinc-700" />
                         </div>
                         <div className="ml-4 flex-1 max-w-md h-6 bg-zinc-800 rounded-md flex items-center px-3 text-xs text-zinc-500 font-mono">
-                           bhuexpert.com
+                           profness.com
                         </div>
                     </div>
                     <div className="flex-1 flex bg-zinc-950 p-4 gap-4">
@@ -273,7 +273,7 @@ export default function BhuexpertCaseStudyPage() {
                         
                         <div className="pt-4">
                              <Button className="w-full mb-3" asChild>
-                                <Link href="https://bhuexpert.com" target="_blank">
+                                <Link href="https://profness.com" target="_blank">
                                     Visit Live Platform <ArrowRight className="ml-2 h-4 w-4" />
                                 </Link>
                             </Button>
@@ -289,7 +289,7 @@ export default function BhuexpertCaseStudyPage() {
                 <div className="bg-zinc-900 rounded-xl p-6 text-white">
                     <h3 className="font-bold text-lg mb-4">Why This Matters</h3>
                     <p className="text-sm text-zinc-400 mb-4">
-                        Most agencies show you "concepts". We show you "code". Bhuexpert proves we can handle complex logic for your enterprise applications.
+                        Most agencies show you "concepts". We show you "code". ProfNess proves we can handle complex logic for your enterprise applications.
                     </p>
                     <div className="flex items-center gap-2 text-sm font-medium text-blue-400">
                         <CheckCircle2 className="w-4 h-4" />

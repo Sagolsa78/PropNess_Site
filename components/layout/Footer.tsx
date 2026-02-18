@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="flex flex-col space-y-4">
             <Link href="/" className="text-xl font-bold tracking-tight">
-              BHUEXPERT
+              PROFNESS
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               Empowering businesses with custom technology, AI automation, and digital growth strategies.
@@ -113,7 +113,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© {currentYear} Bhuexpert Inc. All rights reserved.</p>
+          <p>© {currentYear} ProfNess Inc. All rights reserved.</p>
           <div className="flex space-x-6">
             <Link href="/privacy" className="hover:text-foreground transition-colors">
               Privacy Policy

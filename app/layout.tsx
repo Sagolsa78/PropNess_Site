@@ -16,8 +16,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Bhuexpert | Digital Growth & Technology",
-  description: "Bhuexpert helps small and mid-sized businesses grow digitally with custom websites, apps, and AI-powered automation.",
+  title: "ProfNess | Digital Growth & Technology",
+  description: "ProfNess helps small and mid-sized businesses grow digitally with custom websites, apps, and AI-powered automation.",
 };
 
 export default function RootLayout({

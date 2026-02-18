@@ -33,7 +33,7 @@ const DigitalGrowthPhilosophy = () => {
                 </h2>
                 <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                     <p>
-                        In a digital landscape crowded with noise, clarity wins. At Bhuexpert, we believe that true growth comes from the intersection of innovative technology and strategic design.
+                        In a digital landscape crowded with noise, clarity wins. At ProfNess, we believe that true growth comes from the intersection of innovative technology and strategic design.
                     </p>
                     <p>
                         We don't just build websites or apps; we build digital ecosystems engineered to perform. Our approach is rooted in a deep understanding of your business mechanics and customer psychology.

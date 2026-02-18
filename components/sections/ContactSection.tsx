@@ -54,7 +54,7 @@ const ContactSection = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto pt-6">
               <a 
-                href="mailto:hello@bhuexpert.com"
+                href="mailto:hello@profness.com"
                 className="flex items-center justify-center gap-3 h-12 rounded-xl bg-secondary/50 border border-border hover:border-primary/50 hover:bg-secondary transition-all text-muted-foreground hover:text-foreground group"
               >
                 <Mail className="w-5 h-5 text-muted-foreground group-hover:text-purple-400 transition-colors" />

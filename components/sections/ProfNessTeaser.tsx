@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import BackgroundGlow from "@/components/ui/BackgroundGlow";
 
-const BhuexpertTeaser = () => {
+const ProfNessTeaser = () => {
   return (
-    <SectionWrapper id="bhuexpert-teaser" className="bg-background text-foreground relative overflow-hidden">
+    <SectionWrapper id="profness-teaser" className="bg-background text-foreground relative overflow-hidden">
       <BackgroundGlow className="z-0" />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
@@ -27,7 +27,7 @@ const BhuexpertTeaser = () => {
           </h2>
           
           <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-            Introducing <span className="font-semibold text-foreground">Bhuexpert.com</span> — our in-house real estate intelligence engine. 
+            Introducing <span className="font-semibold text-foreground">ProfNess.com</span> — our in-house real estate intelligence engine. 
             It's not just a demo; it's a live, production-grade SaaS product handling real-time data, complex filtering, and interactive mapping.
             We use it to prove our architecture scales before we build yours.
           </p>
@@ -49,12 +49,12 @@ const BhuexpertTeaser = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 pt-6">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-8" asChild>
-              <Link href="/case-studies/bhuexpert">
+              <Link href="/case-studies/profness">
                 View The Case Study <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
             </Button>
             <Button variant="outline" size="lg" className="border-border text-foreground hover:bg-secondary rounded-full px-8" asChild>
-                <Link href="https://bhuexpert.com" target="_blank">
+                <Link href="https://profness.com" target="_blank">
                     Live Demo
                 </Link>
             </Button>
@@ -73,7 +73,7 @@ const BhuexpertTeaser = () => {
                 <div className="w-3 h-3 rounded-full bg-yellow-500/50" />
                 <div className="w-3 h-3 rounded-full bg-green-500/50" />
                 <div className="ml-4 h-5 w-64 bg-zinc-800 rounded text-[10px] flex items-center px-2 text-zinc-500 font-mono">
-                    bhuexpert.com/map-view
+                    profness.com/map-view
                 </div>
             </div>
             
@@ -144,4 +144,4 @@ const BhuexpertTeaser = () => {
   );
 };
 
-export default BhuexpertTeaser;
+export default ProfNessTeaser;

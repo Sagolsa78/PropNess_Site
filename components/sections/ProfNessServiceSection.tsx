@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Check, Cpu, Server, Globe } from "lucide-react";
 import Link from "next/link";
 
-const BhuexpertServiceSection = () => {
+const ProfNessServiceSection = () => {
   return (
     <SectionWrapper id="platform-dna" className="bg-zinc-900 border-y border-zinc-800 text-white overflow-hidden relative">
       <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-blue-900/20 to-transparent pointer-events-none" />
@@ -21,7 +21,7 @@ const BhuexpertServiceSection = () => {
           </h2>
           <p className="text-lg text-zinc-400 mb-8 leading-relaxed">
             Many agencies stop at "It looks good." We go further. By building and maintaining our own complex platforms like 
-            <span className="text-white font-semibold"> Bhuexpert.com</span>, we face the same challenges you do: 
+            <span className="text-white font-semibold"> ProfNess.com</span>, we face the same challenges you do: 
             scalability, data integrity, and user retention.
           </p>
           
@@ -50,13 +50,13 @@ const BhuexpertServiceSection = () => {
                </div>
                <div>
                   <h3 className="text-xl font-semibold mb-1">Real-World Growth Tactics</h3>
-                  <p className="text-zinc-500 text-sm">We apply the same SEO and growth strategies to your product that we use to grow Bhuexpert.</p>
+                  <p className="text-zinc-500 text-sm">We apply the same SEO and growth strategies to your product that we use to grow ProfNess.</p>
                </div>
             </div>
           </div>
 
           <Button variant="outline" className="border-zinc-700 text-zinc-300 hover:text-white hover:bg-zinc-800" asChild>
-            <Link href="/case-studies/bhuexpert">
+            <Link href="/case-studies/profness">
               See How We Built It
             </Link>
           </Button>
@@ -107,4 +107,4 @@ const BhuexpertServiceSection = () => {
   );
 };
 
-export default BhuexpertServiceSection;
+export default ProfNessServiceSection;

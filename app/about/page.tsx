@@ -14,7 +14,7 @@ export default function AboutPage() {
             backgroundSize: '14px 24px'
         }} />
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-foreground">about bhuexpert.</h1>
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-foreground">about profness.</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 We are a team of technologists, designers, and strategists obsessed with digital growth.
             </p>
@@ -43,7 +43,7 @@ export default function AboutPage() {
               <div className="bg-secondary/20 p-8 rounded-2xl border border-border/50">
                   <h3 className="text-2xl font-bold mb-4">Why We Started</h3>
                   <p className="text-muted-foreground leading-relaxed mb-6">
-                      Bhuexpert was born from a simple observation: many potential-filled businesses fail not because of their product, but because of poor digital execution. We set out to bridge that gap.
+                      ProfNess was born from a simple observation: many potential-filled businesses fail not because of their product, but because of poor digital execution. We set out to bridge that gap.
                   </p>
                    <p className="text-muted-foreground leading-relaxed">
                       Today, we help partners across industries navigate the complexities of web, mobile, and AI technologies to build sustainable growth engines.

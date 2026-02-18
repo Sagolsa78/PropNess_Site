@@ -32,7 +32,7 @@ const AboutSnippet = () => {
             <span className="text-primary">We Are Your Growth Partners.</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            We started Bhuexpert because we saw a gap. Traditional agencies give you code, not results. Marketing firms give you hype, not systems.
+            We started ProfNess because we saw a gap. Traditional agencies give you code, not results. Marketing firms give you hype, not systems.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
             We bridge that gap. We build enterprise-grade software that powers your business, and we implement aggressive marketing strategies that fill your pipeline. Whether you're a local service business or a global tech company, we speak your language: <strong>ROI.</strong>
